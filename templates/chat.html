@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Medly - AI Symptom Checker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="AI-powered medical symptom checker for educational purposes">
+    <style>
+        :root {
+            --bg: #f3f4f6;
+            --card: #ffffff;
+            --text: #111827;
+            --muted: #6b7280;
+            --bot-bubble: #e5e7eb;
+            --user-bubble: #22c55e;
+            --user-text: #ffffff;
+            --accent: #22c55e;
+            --shadow: 0 10px 20px rgba(0, 0, 0, .08);
+            --radius: 18px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 24px;
+        }
+
+        .app {
+            width: 100%;
+            max-width: 820px;
+            background: var(--card);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            height: min(88vh, 900px);
+            transition: all 0.3s ease;
+        }
+
+        /* Header Styles */
+        header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 18px 20px;
+            border-bottom: 1px solid #e5e7eb;
+            background: linear-gradient(135deg, #22c55e, #60a5fa);
+            color: white;
+        }
+
+        header .logo {
+            width: 36px;
+            height: 36px;
+            display: grid;
+            place-items: center;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            font-weight: 700;
+            box-shadow: 0 6px 14px rgba(34, 197, 94, .25);
+            backdrop-filter: blur(10px);
+        }
+
+        header h1 {
+            font-size: 20px;
+            margin: 0;
+            font-weight: 600;
+        }
+
+        header .sub {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 13px;
+        }
+
+        /* Chat Area Styles */
+        .chat {
+            padding: 20px;
+            overflow: auto;
+            background: radial-gradient(60px 60px at 20% 10%, rgba(34, 197, 94, .06), transparent 60%), 
+                       radial-gradient(70px 70px at 90% 30%, rgba(96, 165, 250, .08), transparent 60%), 
+                       var(--bg);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .bubble {
+            max-width: 74%;
+            padding: 12px 14px;
+            margin: 4px 0;
+            border-radius: 14px;
+            word-wrap: break-word;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, .05);
+            animation: fadeIn 0.3s ease;
+            line-height: 1.4;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .bot {
+            background: var(--bot-bubble);
+            border-bottom-left-radius: 6px;
+            align-self: flex-start;
+        }
+
+        .user {
+            background: var(--user-bubble);
+            color: var(--user-text);
+            border-bottom-right-radius: 6px;
+            align-self: flex-end;
+        }
+
+        .meta {
+            font-size: 12px;
+            color: var(--muted);
+            margin-top: 4px;
+            opacity: 0.7;
+        }
+
+        /* Input Area Styles */
+        .input {
+            display: flex;
+            gap: 10px;
+            padding: 14px;
+            border-top: 1px solid #e5e7eb;
+            background: #fafafa;
+        }
+
+        .input .box {
+            position: relative;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 6px 10px;
+            transition: all 0.2s ease;
+        }
+
+        .input .box:focus-within {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.1);
+        }
+
+        .input input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            padding: 10px;
+            background: transparent;
+        }
+
+        .input button {
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            padding: 12px 18px;
+            font-weight: 600;
+            background: var(--accent);
+            color: #fff;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .input button:hover {
+            background: #16a34a;
+            transform: translateY(-1px);
+        }
+
+        .input button:active {
+            transform: translateY(0);
+        }
+
+        .input button:disabled {
+            background: var(--muted);
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .typing-indicator {
+            display: none;
+            padding: 12px 14px;
+            background: var(--bot-bubble);
+            border-radius: 14px;
+            align-self: flex-start;
+            max-width: 74%;
+        }
+
+        .typing-dots {
+            display: flex;
+            gap: 4px;
+        }
+
+        .typing-dots span {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--muted);
+            animation: typing 1.4s infinite ease-in-out;
+        }
+
+        .typing-dots span:nth-child(1) { animation-delay: -0.32s; }
+        .typing-dots span:nth-child(2) { animation-delay: -0.16s; }
+
+        @keyframes typing {
+            0%, 80%, 100% { transform: scale(0.8); opacity: 0.5; }
+            40% { transform: scale(1); opacity: 1; }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 640px) {
+            .app {
+                height: 95vh;
+                border-radius: 12px;
+            }
+            
+            .bubble {
+                max-width: 86%;
+            }
+            
+            header {
+                padding: 14px 16px;
+            }
+            
+            .chat {
+                padding: 16px;
+            }
+            
+            .input {
+                padding: 12px;
+            }
+        }
+
+        /* Helper classes */
+        .reply h4 {
+            margin: 0 0 6px 0;
+            color: var(--text);
+        }
+
+        .reply ul {
+            margin: 6px 0 0 18px;
+            padding: 0;
+        }
+
+        .disclaimer {
+            font-size: 12px;
+            color: var(--muted);
+            text-align: center;
+            padding: 10px;
+            border-top: 1px solid #e5e7eb;
+            background: #f8f9fa;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app">
+        <header>
+            <div class="logo">🩺</div>
+            <div>
+                <h1>Medly – AI Symptom Checker</h1>
+                <div class="sub">Describe your symptoms (e.g., <em>fever, cough, headache</em>)</div>
+            </div>
+        </header>
+
+        <main id="chat" class="chat">
+            <div class="bubble bot">
+                <div class="reply">
+                    <p>Hi! I'm Medly, your AI health assistant. I can help you understand possible conditions based on your symptoms.</p>
+                    <p><strong>How to use:</strong></p>
+                    <ul>
+                        <li>Enter one or more symptoms separated by commas</li>
+                        <li>Be specific (e.g., "headache, fever, sore throat")</li>
+                        <li>I'll provide information about possible conditions</li>
+                    </ul>
+                    <p><small>⚠️ <em>Remember: This is for educational purposes only. Always consult a doctor for medical advice.</em></small></p>
+                </div>
+            </div>
+        </main>
+
+        <div class="typing-indicator" id="typing">
+            <div class="typing-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="input">
+            <div class="box">
+                <input id="msg" type="text" placeholder="Enter symptoms (e.g., fever, cough, headache)..." autocomplete="off" />
+            </div>
+            <button id="send" type="button">
+                <span>Send</span>
+                <span>➤</span>
+            </button>
+        </div>
+
+        <div class="disclaimer">
+            ⚠️ For educational purposes only. Not a substitute for professional medical advice.
+        </div>
+    </div>
+
+    <script>
+        class SymptomChecker {
+            constructor() {
+                this.chatbox = document.getElementById('chat');
+                this.inputField = document.getElementById('msg');
+                this.sendButton = document.getElementById('send');
+                this.typingIndicator = document.getElementById('typing');
+                
+                this.initEventListeners();
+            }
+
+            initEventListeners() {
+                this.sendButton.addEventListener('click', () => this.sendMessage());
+                
+                this.inputField.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') {
+                        this.sendMessage();
+                    }
+                });
+
+                
+                this.inputField.addEventListener('input', () => {
+                    this.sendButton.disabled = !this.inputField.value.trim();
+                });
+
+                
+                this.sendButton.disabled = true;
+            }
+
+            async sendMessage() {
+                const message = this.inputField.value.trim();
+                if (!message) return;
+
+                this.addMessage(message, 'user');
+                this.inputField.value = '';
+                this.sendButton.disabled = true;
+
+           
+                this.showTypingIndicator();
+
+                try {
+                    const response = await fetch("/get_response", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify({ message })
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+
+                    const data = await response.json();
+                    this.addMessage(data.reply, 'bot');
+
+                } catch (error) {
+                    console.error('Error:', error);
+                    this.addMessage(
+                        '❌ Sorry, I encountered an error. Please check your connection and try again.', 
+                        'bot'
+                    );
+                } finally {
+                    this.hideTypingIndicator();
+                }
+            }
+
+            addMessage(content, sender) {
+                const messageDiv = document.createElement('div');
+                messageDiv.className = `bubble ${sender}`;
+                
+                if (sender === 'bot') {
+                    messageDiv.innerHTML = content;
+                } else {
+                    messageDiv.textContent = content;
+                }
+
+                this.chatbox.appendChild(messageDiv);
+                this.scrollToBottom();
+            }
+
+            showTypingIndicator() {
+                this.typingIndicator.style.display = 'block';
+                this.scrollToBottom();
+            }
+
+            hideTypingIndicator() {
+                this.typingIndicator.style.display = 'none';
+            }
+
+            scrollToBottom() {
+                setTimeout(() => {
+                    this.chatbox.scrollTop = this.chatbox.scrollHeight;
+                }, 100);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            new SymptomChecker();
+        });
+        
+        document.addEventListener('click', (e) => {
+            if (e.target.classList.contains('example-symptom')) {
+                document.getElementById('msg').value = e.target.textContent;
+                document.getElementById('send').disabled = false;
+            }
+        });
+    </script>
+</body></html>

@@ -1,0 +1,1000 @@
+Symptom,Disease
+"fever, chills, sweating",Malaria
+"fever, headache, weakness, abdominal pain",Typhoid
+"fever, rash, joint pain, headache",Dengue
+"fever, cough, sore throat, body ache",Influenza (Flu)
+"runny nose, sneezing, mild fever",Common Cold
+"dry cough, loss of taste or smell, fever",COVID-19
+"chest pain, breathlessness, cough with mucus",Pneumonia
+"skin rash, fever, swollen lymph nodes",Measles
+"rash, itching, fatigue",Chickenpox
+"sneezing, watery eyes, runny nose",Allergic Rhinitis
+"severe sore throat, swollen tonsils, difficulty swallowing",Tonsillitis
+"cough, night sweats, weight loss, prolonged fever",Tuberculosis
+"diarrhea, severe dehydration, vomiting",Cholera
+"skin blisters, painful lesions",Herpes (HSV)
+"fever, joint pain, red eyes",Zika Virus
+"high fever, bleeding gums, jaundice",Yellow Fever
+"rash, conjunctivitis, mild fever",Rubella
+"stomach cramps, watery diarrhea, vomiting",Gastroenteritis
+"headache, muscle pain, fever, vomiting",Leptospirosis
+"stiff neck, high fever, severe headache",Meningitis
+"fever, swollen glands, sore throat, fatigue",Mononucleosis
+"persistent cough with blood",Bronchiectasis
+"fever, severe joint pain, bleeding, low platelets","Hemorrhagic Fever (e.g., Ebola)"
+"fever, jaundice, abdominal pain",Hepatitis A
+"fever, jaundice, chronic liver issues",Hepatitis B
+"frequent urination, thirst, fatigue, blurred vision",Diabetes Mellitus
+"headache, dizziness, nosebleeds, blurred vision",Hypertension
+"chest pressure, pain during exertion",Angina
+"irregular heartbeat, palpitations, chest discomfort",Cardiac Arrhythmia
+"joint pain, swelling, stiffness, morning stiffness",Rheumatoid Arthritis
+"bone pain, weakness, risk of fractures",Osteoporosis
+"fatigue, pale skin, shortness of breath",Anemia
+"shortness of breath, chronic cough, sputum",Chronic Obstructive Pulmonary Disease (COPD)
+"back pain, stiffness, reduced mobility",Spondylitis
+"weight gain, dry skin, cold intolerance",Hypothyroidism
+"weight loss, heat intolerance, tremors",Hyperthyroidism
+"swelling in legs, reduced urine output, breathlessness",Chronic Kidney Disease
+"chest pain, shortness of breath, sweating",Myocardial Infarction (Heart Attack)
+"difficulty concentrating, memory issues, progressive decline",Alzheimer's Disease
+"tremor at rest, rigidity, slow movement",Parkinson's Disease
+"sudden weakness, slurred speech, facial droop",Stroke
+"yellow skin, dark urine, abdominal pain, fatigue",Jaundice
+"nausea, vomiting, abdominal pain after food",Food Poisoning
+"heartburn, acid reflux, chest discomfort after meals",Gastroesophageal Reflux Disease (GERD)
+"constipation, abdominal discomfort, bloating",Irritable Bowel Syndrome (IBS)
+"diarrhea, abdominal pain, weight loss",Inflammatory Bowel Disease (Ulcerative Colitis/Crohn's)
+"abdominal pain, bloating, fatty stools",Gallstones / Cholelithiasis
+"difficulty swallowing, chest pain when eating",Esophagitis
+"severe headache, nausea, visual disturbance",Migraine
+"seizures, loss of consciousness, convulsions",Epilepsy
+"anxiety, panic attacks, palpitations",Anxiety Disorder
+"persistent low mood, loss of interest",Depression
+"burning urination, frequent urge, lower abdominal pain",Urinary Tract Infection (UTI)
+"pelvic pain, abnormal bleeding, infertility",Polycystic Ovary Syndrome (PCOS)
+"genital ulcers, discharge, pain","Sexually Transmitted Infection (e.g., Chlamydia/Gonorrhea)"
+"patchy red scaly skin, itching",Psoriasis
+"hives, swelling, itchy red welts",Urticaria (Hives)
+"white patches in mouth, pain",Oral Thrush (Candidiasis)
+"easy bruising, bleeding, fatigue",Leukemia
+"unexplained weight loss, night sweats, lymph node swelling",Lymphoma
+"fever, bleeding, organ failure (severe)",Severe Viral Hemorrhagic Fever
+"bone pain, frequent fractures, weakness",Multiple Myeloma / Bone Cancer
+"fever, joint pain, loss of appetite, muscle ache, night sweats",Heat Stroke
+"rash, cough, dizziness",Pneumonia
+"headache, rash, sore throat",Bronchitis
+"rash, cough, sweating, nausea, fatigue",Pneumonia
+"sneezing, abdominal pain, rash, joint pain",Chikungunya
+"abdominal pain, weakness, dizziness, vomiting",Leukemia
+"muscle ache, headache, rash, sneezing",Osteoarthritis
+"loss of appetite, sweating, fatigue, chest pain, vomiting",Skin Allergy
+"sneezing, nausea",Peptic Ulcer
+"dizziness, shortness of breath, night sweats",Epilepsy
+"rash, confusion",Meningitis
+"loss of appetite, headache, confusion, cough, vomiting",Encephalitis
+"diarrhea, muscle ache, sweating, night sweats, blurred vision",COVID-19
+"sneezing, sore throat, blurred vision",Rheumatoid Arthritis
+"weakness, muscle ache, rash",Hypertension
+"sore throat, joint pain, chest pain, loss of appetite",Migraine
+"fatigue, shortness of breath",Epilepsy
+"nausea, dizziness, night sweats",Food Poisoning
+"rash, sneezing, fatigue, vomiting, muscle ache",Osteoarthritis
+"headache, diarrhea, nausea, confusion, shortness of breath",UTI
+"loss of appetite, nausea, weakness",Osteoarthritis
+"abdominal pain, muscle ache, shortness of breath, confusion",Pneumonia
+"sore throat, loss of appetite, confusion, joint pain, weakness",Chickenpox
+"joint pain, muscle ache, sneezing, loss of appetite, diarrhea",Measles
+"chest pain, confusion, nausea, night sweats",Measles
+"diarrhea, weakness, weight loss, night sweats, joint pain",Anemia
+"fever, sneezing, rash, confusion, shortness of breath",Gastroenteritis
+"night sweats, loss of appetite",Chikungunya
+"headache, cough, sweating, vomiting",Anemia
+"sweating, night sweats, shortness of breath, blurred vision",Hepatitis B
+"sneezing, fever",Jaundice
+"cough, weight loss, sneezing",Encephalitis
+"sweating, diarrhea",Hypertension
+"dizziness, vomiting",Hypertension
+"sore throat, weakness",Pneumonia
+"confusion, headache, weakness",Pneumonia
+"dizziness, cough, shortness of breath, loss of appetite",Food Poisoning
+"dizziness, sweating, weakness",Leukemia
+"fever, sweating, cough, weight loss, confusion",COVID-19
+"fever, headache, vomiting",Hepatitis C
+"muscle ache, abdominal pain",Hypertension
+"diarrhea, loss of appetite",Rheumatoid Arthritis
+"abdominal pain, night sweats, fatigue, cough, sore throat",Hepatitis B
+"fatigue, joint pain",Encephalitis
+"night sweats, rash, blurred vision, sneezing, fatigue",Food Poisoning
+"rash, chest pain",Leukemia
+"weakness, sore throat",Appendicitis
+"headache, loss of appetite, cough",Appendicitis
+"sore throat, blurred vision",Jaundice
+"muscle ache, headache, sweating, diarrhea",Heat Stroke
+"fever, weakness, sore throat, diarrhea, fatigue",Pneumonia
+"loss of appetite, sore throat, blurred vision",Food Poisoning
+"fatigue, blurred vision",Migraine
+"joint pain, loss of appetite, weight loss",Psoriasis
+"sore throat, nausea, headache, fatigue",Chickenpox
+"vomiting, nausea, weakness, fatigue",Bronchitis
+"cough, weakness",Eczema
+"fever, abdominal pain, shortness of breath",Bronchitis
+"sore throat, rash, confusion, weakness",Leukemia
+"blurred vision, cough, weight loss, dizziness",Heat Stroke
+"cough, chest pain, confusion, joint pain",Meningitis
+"rash, nausea, joint pain",Chikungunya
+"joint pain, fever, nausea",Diabetes
+"cough, shortness of breath, nausea, fever",Skin Allergy
+"nausea, confusion, chest pain, shortness of breath",UTI
+"dizziness, joint pain, chest pain, confusion, sneezing",Diabetes
+"abdominal pain, dizziness, nausea, fatigue",Sinusitis
+"weakness, blurred vision, confusion",Pneumonia
+"rash, muscle ache, loss of appetite, nausea",Chickenpox
+"cough, fatigue",Kidney Infection
+"dizziness, joint pain, abdominal pain, fatigue, sore throat",Osteoarthritis
+"fatigue, weakness, nausea, sneezing",Anemia
+"fever, nausea, weight loss, vomiting, night sweats",Skin Allergy
+"rash, dizziness, nausea",Gastroenteritis
+"muscle ache, fatigue",Leukemia
+"abdominal pain, fever, night sweats, fatigue, vomiting",Bronchitis
+"sneezing, weakness",Sinusitis
+"sneezing, joint pain, weakness, fatigue",Hypertension
+"blurred vision, chest pain, confusion",Hepatitis B
+"sore throat, abdominal pain, cough, loss of appetite",Hepatitis B
+"sore throat, confusion, muscle ache, vomiting",Hepatitis B
+"blurred vision, vomiting, joint pain",Hepatitis C
+"vomiting, sneezing, sore throat, chest pain, weakness",COVID-19
+"sweating, abdominal pain, diarrhea, weakness",COVID-19
+"joint pain, weight loss, fatigue, abdominal pain",Meningitis
+"loss of appetite, weakness, dizziness",Hepatitis B
+"headache, weight loss, confusion, muscle ache",Hypertension
+"sneezing, loss of appetite",Peptic Ulcer
+"weakness, rash, sore throat",Appendicitis
+"loss of appetite, fever, shortness of breath, sneezing, dizziness",Heat Stroke
+"shortness of breath, dizziness",Psoriasis
+"vomiting, chest pain, joint pain",Epilepsy
+"loss of appetite, weight loss",Bronchitis
+"blurred vision, sneezing, joint pain",Hypertension
+"sneezing, dizziness, shortness of breath, joint pain",Appendicitis
+"nausea, fever, vomiting, cough",Pneumonia
+"rash, diarrhea, weakness",Gastroenteritis
+"blurred vision, vomiting, cough",Encephalitis
+"sore throat, fever, blurred vision, nausea, night sweats",Migraine
+"chest pain, blurred vision, nausea, vomiting, weight loss",Allergic Rhinitis
+"sneezing, chest pain",Anemia
+"dizziness, loss of appetite, joint pain, fever, shortness of breath",Tuberculosis
+"fever, weakness",Anemia
+"sneezing, fatigue, headache, dizziness, loss of appetite",Diabetes
+"chest pain, sore throat, nausea",Leukemia
+"sweating, joint pain, shortness of breath",Leukemia
+"sneezing, shortness of breath, sore throat, fatigue, chest pain",Rheumatoid Arthritis
+"loss of appetite, muscle ache, shortness of breath, fatigue, chest pain",Pneumonia
+"vomiting, cough",Epilepsy
+"vomiting, rash, blurred vision, weight loss",Hepatitis B
+"fever, loss of appetite, confusion, abdominal pain",Peptic Ulcer
+"fever, joint pain, cough, blurred vision, muscle ache",Peptic Ulcer
+"joint pain, loss of appetite, shortness of breath, diarrhea",Eczema
+"sweating, fatigue, sore throat, joint pain, weakness",Epilepsy
+"dizziness, sweating",Hepatitis A
+"sore throat, abdominal pain, sneezing, night sweats",Allergic Rhinitis
+"muscle ache, chest pain, fatigue",Food Poisoning
+"headache, weakness, muscle ache, fatigue",Food Poisoning
+"joint pain, vomiting",Chickenpox
+"headache, chest pain",Osteoarthritis
+"cough, rash, diarrhea, confusion, fever",Psoriasis
+"headache, weight loss, shortness of breath, sore throat",Tuberculosis
+"sweating, muscle ache, dizziness",Diabetes
+"muscle ache, weakness",Osteoarthritis
+"sore throat, fever",Kidney Infection
+"sneezing, chest pain, night sweats",Hepatitis B
+"blurred vision, muscle ache, sore throat",Hepatitis B
+"chest pain, muscle ache",Heat Stroke
+"muscle ache, weight loss, headache, sore throat, nausea",Food Poisoning
+"nausea, blurred vision, rash, loss of appetite, fatigue",Heat Stroke
+"nausea, sore throat, headache, sweating, fatigue",Allergic Rhinitis
+"nausea, cough",Mumps
+"headache, fever",Osteoarthritis
+"blurred vision, fever, shortness of breath",Jaundice
+"cough, muscle ache",Measles
+"shortness of breath, chest pain",UTI
+"nausea, fatigue, dizziness, sneezing",Hepatitis B
+"sweating, sore throat, rash, fever, joint pain",Lung Cancer
+"headache, abdominal pain, vomiting",Eczema
+"blurred vision, night sweats, muscle ache",Heat Stroke
+"confusion, blurred vision, diarrhea, sneezing",Allergic Rhinitis
+"fatigue, cough",Eczema
+"dizziness, fever, sneezing",Sinusitis
+"weight loss, night sweats, shortness of breath, diarrhea",Epilepsy
+"rash, chest pain, diarrhea",Rheumatoid Arthritis
+"joint pain, confusion, shortness of breath, chest pain",COVID-19
+"muscle ache, sneezing, weight loss",Rheumatoid Arthritis
+"cough, weakness, fever, chest pain, rash",Gastroenteritis
+"chest pain, confusion, headache, sweating",Heat Stroke
+"nausea, fever, abdominal pain",Sinusitis
+"sweating, weight loss, fatigue, sore throat",Meningitis
+"cough, diarrhea, nausea, vomiting",Allergic Rhinitis
+"muscle ache, shortness of breath, rash, blurred vision",Peptic Ulcer
+"shortness of breath, muscle ache, chest pain, loss of appetite, fatigue",Leukemia
+"sweating, weight loss, fever, chest pain",Appendicitis
+"headache, shortness of breath, diarrhea, night sweats, vomiting",Psoriasis
+"loss of appetite, blurred vision, sneezing, night sweats",Appendicitis
+"confusion, dizziness, blurred vision, joint pain",Hepatitis B
+"nausea, weight loss, shortness of breath, night sweats, confusion",Food Poisoning
+"diarrhea, cough, abdominal pain, dizziness",Osteoarthritis
+"sneezing, night sweats, dizziness, shortness of breath",Appendicitis
+"night sweats, loss of appetite, sneezing, fatigue",Osteoarthritis
+"diarrhea, loss of appetite, abdominal pain, shortness of breath",Migraine
+"chest pain, sore throat, dizziness",Leukemia
+"fatigue, night sweats, sneezing",Appendicitis
+"muscle ache, confusion, abdominal pain",Psoriasis
+"cough, diarrhea, night sweats",UTI
+"shortness of breath, blurred vision, fatigue, chest pain",Appendicitis
+"sore throat, blurred vision, loss of appetite",Lung Cancer
+"confusion, rash, abdominal pain",Allergic Rhinitis
+"rash, fatigue",Mumps
+"cough, dizziness, shortness of breath, headache",Anemia
+"sweating, nausea",Lung Cancer
+"confusion, night sweats, rash, fever",Tuberculosis
+"shortness of breath, headache, nausea",Psoriasis
+"night sweats, chest pain, headache, joint pain, weight loss",Jaundice
+"loss of appetite, night sweats, abdominal pain, sneezing",Diabetes
+"sore throat, sneezing, night sweats, headache, blurred vision",Mumps
+"fever, sore throat, loss of appetite, muscle ache, blurred vision",Gastroenteritis
+"loss of appetite, sore throat",Peptic Ulcer
+"weakness, sweating, weight loss, headache, loss of appetite",Mumps
+"weight loss, sore throat, diarrhea, fatigue",Hepatitis C
+"weakness, rash, chest pain",Hepatitis C
+"diarrhea, weight loss",Bronchitis
+"sore throat, shortness of breath, muscle ache, chest pain, cough",Asthma
+"weakness, diarrhea, sweating, sneezing, dizziness",Appendicitis
+"fatigue, confusion, weakness",Leukemia
+"dizziness, fatigue",Diabetes
+"fever, nausea, dizziness",Mumps
+"loss of appetite, sore throat, sweating, vomiting",Asthma
+"chest pain, abdominal pain, sneezing, loss of appetite",Psoriasis
+"shortness of breath, weight loss, fever, weakness, headache",Osteoarthritis
+"vomiting, blurred vision, sneezing",Kidney Infection
+"sore throat, abdominal pain",Heat Stroke
+"abdominal pain, sneezing, fever",Hepatitis C
+"dizziness, chest pain",Hepatitis B
+"abdominal pain, sweating, joint pain, fever",Hypertension
+"headache, fever, muscle ache, weight loss, abdominal pain",Anemia
+"night sweats, muscle ache, blurred vision",Asthma
+"muscle ache, sneezing, cough, fatigue",Eczema
+"muscle ache, chest pain, dizziness, blurred vision",Food Poisoning
+"blurred vision, fever, shortness of breath, chest pain",Lung Cancer
+"chest pain, abdominal pain, headache",Anemia
+"vomiting, sweating, cough",Hypertension
+"headache, sneezing",Diabetes
+"night sweats, vomiting",Kidney Infection
+"sneezing, night sweats, rash, headache",Chickenpox
+"fatigue, fever, chest pain, shortness of breath, sore throat",Heat Stroke
+"loss of appetite, rash, chest pain, blurred vision",Leukemia
+"chest pain, blurred vision, headache, abdominal pain",Anemia
+"dizziness, abdominal pain, fatigue",Pneumonia
+"abdominal pain, chest pain, vomiting, night sweats",Jaundice
+"headache, sore throat, confusion, abdominal pain, sweating",Hypertension
+"headache, sore throat",Mumps
+"joint pain, dizziness",Chikungunya
+"fever, abdominal pain, weight loss, confusion, rash",Migraine
+"nausea, night sweats",Mumps
+"rash, abdominal pain, sore throat, sweating, nausea",Asthma
+"nausea, night sweats, vomiting, abdominal pain",Leukemia
+"fever, weight loss",UTI
+"vomiting, cough, chest pain, confusion, dizziness",Epilepsy
+"weakness, dizziness",Food Poisoning
+"dizziness, diarrhea, vomiting",Psoriasis
+"vomiting, joint pain",Hepatitis B
+"sore throat, blurred vision, rash, vomiting",Peptic Ulcer
+"chest pain, weakness, confusion, diarrhea",COVID-19
+"sweating, shortness of breath, abdominal pain, dizziness",Migraine
+"night sweats, headache, abdominal pain",Anemia
+"shortness of breath, rash, confusion, dizziness, weakness",Eczema
+"joint pain, fatigue",Chikungunya
+"sore throat, nausea, sneezing, diarrhea",Mumps
+"rash, joint pain, sweating, headache, nausea",COVID-19
+"loss of appetite, night sweats, weight loss, cough",Food Poisoning
+"rash, cough, loss of appetite, nausea, sweating",Sinusitis
+"rash, fatigue, vomiting, night sweats, weight loss",Hepatitis B
+"sneezing, weakness, cough, sweating, confusion",Measles
+"vomiting, weight loss, headache, cough, chest pain",Allergic Rhinitis
+"nausea, dizziness",Hepatitis C
+"weakness, confusion",Pneumonia
+"sore throat, fatigue, abdominal pain",Hepatitis B
+"joint pain, diarrhea",Hepatitis C
+"headache, shortness of breath",Pneumonia
+"confusion, blurred vision, sore throat",Gastroenteritis
+"blurred vision, nausea, loss of appetite",Food Poisoning
+"nausea, shortness of breath, night sweats, weight loss",Encephalitis
+"shortness of breath, confusion, nausea, joint pain",Allergic Rhinitis
+"abdominal pain, muscle ache, dizziness, fever, sore throat",Osteoarthritis
+"nausea, joint pain, abdominal pain, cough",Heat Stroke
+"confusion, weight loss, diarrhea, sneezing, joint pain",Bronchitis
+"night sweats, dizziness",Heat Stroke
+"vomiting, diarrhea, shortness of breath, confusion",Kidney Infection
+"confusion, night sweats, joint pain, cough, rash",COVID-19
+"rash, night sweats, sweating, headache",Gastroenteritis
+"abdominal pain, sweating, night sweats, sore throat, shortness of breath",Bronchitis
+"sneezing, fatigue",Osteoarthritis
+"weakness, fatigue, loss of appetite",Gastroenteritis
+"abdominal pain, chest pain, muscle ache, headache, vomiting",Diabetes
+"dizziness, vomiting, joint pain, weakness, abdominal pain",Osteoarthritis
+"fatigue, sweating, dizziness, chest pain",Hepatitis B
+"dizziness, weight loss, muscle ache, fever, abdominal pain",Asthma
+"shortness of breath, confusion",Leukemia
+"diarrhea, joint pain, confusion",Food Poisoning
+"diarrhea, confusion, vomiting, nausea",Hypertension
+"joint pain, fever, muscle ache, sweating",Rheumatoid Arthritis
+"shortness of breath, sneezing, sweating, night sweats",Chikungunya
+"fatigue, nausea, abdominal pain",Sinusitis
+"fever, confusion",Gastroenteritis
+"vomiting, weakness, blurred vision, headache, night sweats",Chikungunya
+"fever, headache, loss of appetite",Measles
+"confusion, fatigue, cough, night sweats",Sinusitis
+"sore throat, sneezing",Hepatitis B
+"blurred vision, diarrhea, dizziness, shortness of breath, loss of appetite",Gastroenteritis
+"sore throat, muscle ache, vomiting",Eczema
+"joint pain, weakness, night sweats, confusion, loss of appetite",Psoriasis
+"muscle ache, rash, abdominal pain",Epilepsy
+"headache, rash, cough, fever",Encephalitis
+"sweating, dizziness, sore throat, nausea, headache",Epilepsy
+"loss of appetite, fever, dizziness, cough",Hepatitis B
+"muscle ache, weight loss",Migraine
+"headache, weakness, weight loss, cough, chest pain",Skin Allergy
+"sweating, confusion, weakness, sneezing",Bronchitis
+"fatigue, rash, sneezing, muscle ache, confusion",Chickenpox
+
+"weight loss, confusion, nausea, headache, blurred vision",Rheumatoid Arthritis
+"dizziness, confusion",Rheumatoid Arthritis
+"muscle ache, blurred vision, cough, sore throat",Pneumonia
+"diarrhea, rash",Jaundice
+"sweating, chest pain, diarrhea, muscle ache, dizziness",Chikungunya
+"sore throat, joint pain",Diabetes
+"sore throat, diarrhea, weight loss",Allergic Rhinitis
+"fatigue, sneezing, sore throat, weakness, fever",Measles
+"vomiting, sore throat, loss of appetite, chest pain, sweating",Hypertension
+"chest pain, weakness, fever, blurred vision",Meningitis
+"shortness of breath, sweating, cough, dizziness, weakness",Epilepsy
+"dizziness, blurred vision, sweating, chest pain, night sweats",Sinusitis
+"muscle ache, sneezing",Hepatitis B
+"joint pain, rash, headache",Allergic Rhinitis
+"fatigue, dizziness, cough, loss of appetite, chest pain",Allergic Rhinitis
+"fatigue, weight loss",Anemia
+"sweating, blurred vision, headache, cough, sore throat",Anemia
+"headache, cough, weight loss",Gastroenteritis
+"loss of appetite, cough, confusion, sore throat, dizziness",Peptic Ulcer
+"blurred vision, headache",Lung Cancer
+"chest pain, night sweats",Tuberculosis
+"diarrhea, nausea",Migraine
+"blurred vision, muscle ache, diarrhea, sneezing, weight loss",Measles
+"abdominal pain, confusion, headache",Gastroenteritis
+"fatigue, night sweats, cough, weakness, blurred vision",UTI
+"fever, sore throat, joint pain, vomiting, fatigue",Leukemia
+"fever, sneezing",Anemia
+"sneezing, muscle ache, nausea",Eczema
+"shortness of breath, chest pain, blurred vision, nausea, headache",Psoriasis
+"joint pain, blurred vision, weight loss, sneezing, dizziness",Bronchitis
+"headache, loss of appetite, dizziness, rash, fatigue",Mumps
+"night sweats, dizziness, fatigue, abdominal pain, chest pain",Meningitis
+"nausea, abdominal pain, fever, fatigue",Hepatitis C
+"sneezing, loss of appetite, confusion, joint pain",Lung Cancer
+"weakness, nausea, chest pain",Leukemia
+"confusion, loss of appetite, abdominal pain, blurred vision, night sweats",Leukemia
+"cough, confusion",Leukemia
+"abdominal pain, joint pain, loss of appetite, chest pain, vomiting",Anemia
+"fatigue, vomiting, shortness of breath, sweating",COVID-19
+"sneezing, blurred vision, cough",Rheumatoid Arthritis
+"fatigue, sore throat, confusion",COVID-19
+"weight loss, fever, headache",Sinusitis
+"dizziness, chest pain, nausea, loss of appetite",Asthma
+"chest pain, confusion, cough, sweating, fatigue",COVID-19
+"sneezing, confusion",Chickenpox
+"blurred vision, cough",Psoriasis
+"dizziness, sweating, chest pain, night sweats, sneezing",Peptic Ulcer
+"muscle ache, vomiting, abdominal pain",Hepatitis A
+"cough, diarrhea, headache, dizziness, abdominal pain",Gastroenteritis
+"weight loss, muscle ache, chest pain, rash, diarrhea",Kidney Infection
+"blurred vision, chest pain, rash, sweating",Hepatitis B
+"diarrhea, blurred vision, weakness, loss of appetite, shortness of breath",Chickenpox
+"nausea, joint pain",Tuberculosis
+"confusion, rash, fatigue, blurred vision",Pneumonia
+"fever, joint pain, diarrhea",Rheumatoid Arthritis
+"vomiting, joint pain, muscle ache, shortness of breath, rash",Sinusitis
+"weight loss, shortness of breath",Hepatitis B
+"headache, nausea, sore throat, blurred vision",Allergic Rhinitis
+"sweating, joint pain, nausea, weakness",Anemia
+"vomiting, shortness of breath, abdominal pain",Sinusitis
+"vomiting, weight loss, chest pain, headache",Encephalitis
+"headache, loss of appetite, blurred vision",UTI
+"sweating, joint pain, muscle ache, cough, nausea",Sinusitis
+"sneezing, abdominal pain, confusion, sore throat",Allergic Rhinitis
+"muscle ache, dizziness",Rheumatoid Arthritis
+"vomiting, joint pain, sore throat",Sinusitis
+"fever, weight loss, joint pain, chest pain, rash",Food Poisoning
+
+"muscle ache, shortness of breath",Mumps
+"night sweats, rash, dizziness, sore throat",Rheumatoid Arthritis
+
+"shortness of breath, blurred vision, weakness, diarrhea, confusion",Hepatitis A
+
+"confusion, sneezing",Lung Cancer
+"weight loss, blurred vision, shortness of breath",Mumps
+"chest pain, cough",Hepatitis C
+"sweating, dizziness, diarrhea, weakness",UTI
+"dizziness, night sweats, nausea, rash, sore throat",Anemia
+"abdominal pain, confusion, vomiting, cough",Heat Stroke
+"headache, night sweats, shortness of breath, sore throat",Diabetes
+"rash, sore throat, blurred vision",Migraine
+"sweating, diarrhea, chest pain, confusion",Anemia
+"night sweats, abdominal pain, muscle ache, sore throat",Kidney Infection
+"vomiting, fever, nausea, sweating, sneezing",Bronchitis
+"nausea, diarrhea, chest pain, abdominal pain",Sinusitis
+"cough, sore throat",Migraine
+"headache, abdominal pain",Diabetes
+"weight loss, fatigue, fever, weakness, sweating",COVID-19
+"headache, diarrhea, fatigue, confusion, shortness of breath",Leukemia
+"joint pain, dizziness, chest pain, cough",Eczema
+"weight loss, sneezing, fatigue",Allergic Rhinitis
+"cough, sneezing, loss of appetite, rash",Hepatitis C
+"dizziness, sneezing",Jaundice
+"shortness of breath, fever, chest pain, sneezing, nausea",Hepatitis A
+"loss of appetite, vomiting, blurred vision, cough",Peptic Ulcer
+"nausea, weight loss, weakness",Kidney Infection
+"sore throat, rash",Gastroenteritis
+"sweating, sneezing",Hepatitis B
+"night sweats, blurred vision, fatigue",Eczema
+"rash, nausea",Chikungunya
+"headache, abdominal pain, chest pain, sore throat, vomiting",Mumps
+"cough, nausea, weight loss, rash, diarrhea",Measles
+"shortness of breath, cough, sneezing",Anemia
+"blurred vision, weakness",Psoriasis
+"loss of appetite, sweating, cough",Asthma
+"shortness of breath, dizziness, night sweats, blurred vision",Peptic Ulcer
+"rash, night sweats, vomiting, shortness of breath",UTI
+"cough, nausea, night sweats, fatigue",Hepatitis C
+"dizziness, cough, headache, rash, confusion",Gastroenteritis
+"night sweats, cough",Heat Stroke
+"confusion, weight loss, chest pain, sneezing, diarrhea",Lung Cancer
+"confusion, dizziness",Bronchitis
+"diarrhea, night sweats, confusion, dizziness",Pneumonia
+"cough, vomiting, sweating, joint pain, loss of appetite",Lung Cancer
+"weight loss, chest pain, sneezing, dizziness",Hepatitis C
+"muscle ache, weakness, fatigue, confusion, fever",Psoriasis
+"dizziness, cough, headache, rash",Measles
+"sweating, sneezing, headache, nausea, weight loss",Encephalitis
+"weight loss, confusion, sore throat",UTI
+"rash, sweating, weight loss",Encephalitis
+"rash, muscle ache, dizziness, fever",Chickenpox
+"muscle ache, fatigue, rash, weight loss, chest pain",Hepatitis B
+"nausea, dizziness, diarrhea, sweating, abdominal pain",Eczema
+"confusion, joint pain, cough, headache",Sinusitis
+"weight loss, vomiting, diarrhea",Lung Cancer
+"abdominal pain, sore throat, muscle ache, night sweats, sweating",Gastroenteritis
+"fatigue, sweating, weight loss",Meningitis
+"joint pain, cough",Meningitis
+"shortness of breath, chest pain, weakness, headache",Epilepsy
+"shortness of breath, chest pain, loss of appetite",Encephalitis
+"chest pain, shortness of breath",Eczema
+"muscle ache, weakness, joint pain, cough, shortness of breath",Migraine
+"sore throat, confusion, joint pain",Encephalitis
+"cough, nausea",Heat Stroke
+"chest pain, diarrhea, loss of appetite, blurred vision",Epilepsy
+"weakness, diarrhea, cough, muscle ache, confusion",Hepatitis A
+"headache, rash, abdominal pain",COVID-19
+"weight loss, chest pain",Encephalitis
+"sweating, cough, abdominal pain, muscle ache",Bronchitis
+"loss of appetite, sweating, sneezing, night sweats, abdominal pain",Hepatitis A
+"night sweats, abdominal pain, fever, joint pain, fatigue",Anemia
+"headache, sweating, muscle ache, weakness, vomiting",Kidney Infection
+"confusion, joint pain, sore throat, headache",Hepatitis B
+"dizziness, cough, confusion, vomiting, blurred vision",Hepatitis B
+"dizziness, weight loss, diarrhea, joint pain",Encephalitis
+"sore throat, cough, confusion",Hypertension
+"abdominal pain, cough",Peptic Ulcer
+"diarrhea, blurred vision, night sweats, fever",Hepatitis A
+"joint pain, nausea, sore throat, loss of appetite, muscle ache",Epilepsy
+"cough, chest pain",Mumps
+"sore throat, sneezing, fever, dizziness, cough",Asthma
+"weight loss, fever, weakness, shortness of breath, diarrhea",UTI
+"fever, cough",Heat Stroke
+"muscle ache, headache, diarrhea, sneezing, blurred vision",Sinusitis
+"sneezing, muscle ache, abdominal pain, fever, fatigue",Sinusitis
+"rash, vomiting, loss of appetite, diarrhea",Kidney Infection
+"shortness of breath, fatigue",Skin Allergy
+"night sweats, loss of appetite, weight loss, fatigue, dizziness",Leukemia
+"abdominal pain, fever",Bronchitis
+"muscle ache, rash, blurred vision",Bronchitis
+"confusion, sore throat, chest pain, weakness, rash",Peptic Ulcer
+"muscle ache, abdominal pain, chest pain, nausea, night sweats",Anemia
+"blurred vision, diarrhea, sneezing, weight loss",Hepatitis C
+"diarrhea, sweating, joint pain, fatigue, vomiting",Skin Allergy
+"fever, loss of appetite",Tuberculosis
+"sore throat, nausea, dizziness",Tuberculosis
+"blurred vision, diarrhea, fever, sweating, shortness of breath",Diabetes
+"weakness, joint pain, rash",Diabetes
+"rash, diarrhea, confusion",Psoriasis
+"sneezing, fever, diarrhea, dizziness, rash",Appendicitis
+"abdominal pain, confusion, weight loss, shortness of breath",Meningitis
+"headache, abdominal pain, fever, sneezing, weakness",Psoriasis
+"confusion, fever, nausea, vomiting, night sweats",UTI
+"night sweats, chest pain, muscle ache, weight loss, fever",Diabetes
+"cough, shortness of breath, diarrhea",Meningitis
+"rash, fever, sore throat, vomiting, sweating",Diabetes
+"vomiting, cough, abdominal pain, chest pain",Allergic Rhinitis
+"dizziness, sore throat, rash, muscle ache",Kidney Infection
+"sweating, weight loss",Hypertension
+"confusion, rash, vomiting, loss of appetite",Eczema
+"shortness of breath, confusion, headache, sore throat, chest pain",Leukemia
+"weight loss, weakness, loss of appetite, joint pain",Anemia
+"rash, diarrhea, night sweats",Mumps
+"blurred vision, weight loss, vomiting, sneezing",Hypertension
+"weight loss, sore throat, vomiting, confusion, loss of appetite",Hepatitis C
+"fever, joint pain, blurred vision",Hypertension
+"diarrhea, nausea, weight loss, loss of appetite",Hepatitis C
+"dizziness, sneezing, joint pain",Hepatitis A
+"weight loss, weakness, vomiting",Food Poisoning
+"sore throat, diarrhea, rash, cough",Measles
+"chest pain, weakness, blurred vision",Epilepsy
+"cough, joint pain",Rheumatoid Arthritis
+"joint pain, nausea, blurred vision, headache",UTI
+"weakness, joint pain",Lung Cancer
+"blurred vision, dizziness, chest pain, weakness",Kidney Infection
+"blurred vision, weakness, confusion, fever",Chikungunya
+"fever, nausea, weakness",Food Poisoning
+"sore throat, shortness of breath",Epilepsy
+"confusion, weight loss, abdominal pain",Allergic Rhinitis
+"night sweats, sneezing, joint pain, chest pain",Skin Allergy
+"weight loss, abdominal pain, sweating",Gastroenteritis
+"abdominal pain, sore throat",UTI
+"fever, blurred vision, cough",COVID-19
+"sore throat, night sweats, fatigue, dizziness, loss of appetite",Encephalitis
+"loss of appetite, fever, cough, night sweats",Osteoarthritis
+"rash, headache, abdominal pain",Eczema
+"diarrhea, dizziness, confusion",Kidney Infection
+"dizziness, confusion, blurred vision",Epilepsy
+"weight loss, fever, fatigue, abdominal pain",Osteoarthritis
+"weakness, sneezing, confusion, muscle ache",Appendicitis
+"fever, shortness of breath, loss of appetite",Osteoarthritis
+"abdominal pain, muscle ache, cough, nausea",Leukemia
+"sore throat, sweating, cough, diarrhea, night sweats",Epilepsy
+"confusion, diarrhea, fever",Appendicitis
+"shortness of breath, rash, sneezing, diarrhea, muscle ache",COVID-19
+"nausea, diarrhea, weakness",Tuberculosis
+"vomiting, cough, joint pain",Meningitis
+"loss of appetite, dizziness",Leukemia
+"muscle ache, fever",Kidney Infection
+"diarrhea, sneezing",Hepatitis B
+"fatigue, diarrhea, joint pain",Psoriasis
+"shortness of breath, cough, sweating, joint pain",Hepatitis C
+"shortness of breath, diarrhea, blurred vision, headache",Measles
+"sneezing, muscle ache, chest pain, shortness of breath, sweating",Hepatitis A
+"sweating, blurred vision",Rheumatoid Arthritis
+"fatigue, sweating, weakness, chest pain, vomiting",Asthma
+"diarrhea, abdominal pain",COVID-19
+"loss of appetite, headache, joint pain, dizziness, sore throat",Leukemia
+"sweating, vomiting",Hypertension
+"chest pain, shortness of breath, cough",Epilepsy
+"sweating, sore throat, weight loss, confusion",UTI
+"sneezing, chest pain, loss of appetite",Pneumonia
+"diarrhea, sweating, nausea, headache",Chikungunya
+"cough, fever, shortness of breath, chest pain",COVID-19
+"joint pain, loss of appetite",Tuberculosis
+"sweating, sneezing, dizziness",Psoriasis
+"muscle ache, chest pain, rash, fatigue, vomiting",Epilepsy
+"night sweats, nausea, joint pain",Skin Allergy
+"headache, nausea, weakness, chest pain",Measles
+"sweating, rash",Tuberculosis
+"vomiting, nausea, diarrhea, dizziness",Food Poisoning
+"weakness, headache, muscle ache, dizziness",Hepatitis B
+"muscle ache, night sweats, sore throat",Peptic Ulcer
+"nausea, sweating, blurred vision, muscle ache, shortness of breath",Psoriasis
+"joint pain, cough, fatigue, weight loss",Diabetes
+"vomiting, rash, joint pain, sneezing, weakness",Tuberculosis
+"muscle ache, vomiting, weight loss, shortness of breath, fatigue",COVID-19
+"headache, weakness, loss of appetite",Heat Stroke
+"sweating, headache, sneezing, dizziness",Food Poisoning
+"headache, dizziness, weakness, vomiting, shortness of breath",Chikungunya
+"fatigue, weakness, diarrhea, rash, dizziness",Gastroenteritis
+"muscle ache, abdominal pain, sore throat, diarrhea, vomiting",Bronchitis
+"confusion, cough",Hepatitis A
+"dizziness, muscle ache, loss of appetite, headache, weight loss",Migraine
+"joint pain, sneezing, abdominal pain, shortness of breath",Mumps
+"nausea, blurred vision, shortness of breath",Hepatitis C
+"cough, headache, confusion",Bronchitis
+"vomiting, dizziness",Migraine
+"fatigue, joint pain, rash, diarrhea, loss of appetite",Rheumatoid Arthritis
+"sweating, muscle ache, sneezing",UTI
+"night sweats, fever, nausea",Gastroenteritis
+"dizziness, vomiting, cough",Hepatitis A
+"cough, vomiting, muscle ache, abdominal pain",Hepatitis B
+"sore throat, rash, abdominal pain",Heat Stroke
+"loss of appetite, abdominal pain, fatigue",Chickenpox
+"diarrhea, loss of appetite, shortness of breath, blurred vision, muscle ache",Kidney Infection
+"weight loss, muscle ache, confusion, nausea, abdominal pain",Jaundice
+"rash, weakness",Jaundice
+"loss of appetite, muscle ache",Lung Cancer
+"sweating, chest pain",Jaundice
+"chest pain, headache, fever",Measles
+"shortness of breath, blurred vision, chest pain",Epilepsy
+"weakness, shortness of breath, confusion",Diabetes
+"headache, sweating, sneezing, muscle ache, vomiting",Pneumonia
+"loss of appetite, fever, chest pain, abdominal pain, nausea",UTI
+"fatigue, chest pain, joint pain, shortness of breath",Sinusitis
+"abdominal pain, weakness, fatigue",Sinusitis
+"cough, loss of appetite, blurred vision",Appendicitis
+"muscle ache, cough, dizziness, night sweats",Meningitis
+"shortness of breath, cough, nausea",Asthma
+"joint pain, blurred vision, night sweats, weight loss",Epilepsy
+"sweating, nausea, abdominal pain, shortness of breath, headache",Skin Allergy
+"sneezing, joint pain, confusion, loss of appetite, sweating",Meningitis
+"weakness, sore throat, chest pain, weight loss, rash",Diabetes
+"joint pain, vomiting, fever",Gastroenteritis
+"cough, sneezing",Allergic Rhinitis
+"rash, loss of appetite, sweating, sore throat, fever",Hepatitis C
+"joint pain, blurred vision, chest pain, night sweats",Osteoarthritis
+"dizziness, joint pain, loss of appetite",Lung Cancer
+"headache, loss of appetite, sweating, dizziness",COVID-19
+"weight loss, fatigue, rash, fever, sweating",Chickenpox
+"joint pain, vomiting, sneezing, blurred vision",Jaundice
+"blurred vision, shortness of breath, headache, sweating, vomiting",UTI
+"headache, sore throat, night sweats",Jaundice
+"blurred vision, weight loss",Epilepsy
+"weight loss, blurred vision, diarrhea, loss of appetite",Pneumonia
+"fatigue, sore throat",Encephalitis
+"chest pain, dizziness, weight loss, sneezing, abdominal pain",Heat Stroke
+"weakness, weight loss",COVID-19
+"abdominal pain, rash, dizziness, loss of appetite",Gastroenteritis
+"fatigue, loss of appetite, weakness",Hepatitis B
+"chest pain, shortness of breath, fever",Hepatitis B
+"nausea, sweating, night sweats",Diabetes
+"muscle ache, rash",Jaundice
+"muscle ache, fever, shortness of breath, night sweats",Diabetes
+"vomiting, headache",Bronchitis
+"sneezing, weakness, fever, sore throat, sweating",UTI
+"nausea, fever",Lung Cancer
+"cough, abdominal pain, sweating, night sweats",Rheumatoid Arthritis
+"headache, abdominal pain, rash, fatigue, nausea",Heat Stroke
+"confusion, loss of appetite, joint pain",Bronchitis
+"fever, cough, sore throat, weight loss",Meningitis
+"cough, chest pain, abdominal pain",Migraine
+"night sweats, shortness of breath, headache, diarrhea",Measles
+"nausea, sore throat, diarrhea, vomiting, chest pain",Allergic Rhinitis
+"headache, night sweats, cough, joint pain, loss of appetite",Leukemia
+"chest pain, sore throat, cough, abdominal pain",Migraine
+"nausea, rash, fatigue, muscle ache, weakness",Tuberculosis
+"joint pain, nausea",Lung Cancer
+"fatigue, nausea, joint pain, blurred vision",Meningitis
+"dizziness, sore throat, confusion",Food Poisoning
+"night sweats, rash, weakness, chest pain, weight loss",Jaundice
+"diarrhea, blurred vision, fatigue, muscle ache",Psoriasis
+"chest pain, abdominal pain, loss of appetite, sore throat",Allergic Rhinitis
+"confusion, dizziness, loss of appetite",Heat Stroke
+"sore throat, joint pain, diarrhea, weight loss",Diabetes
+"vomiting, shortness of breath, weight loss, sore throat, sweating",Hepatitis C
+"headache, dizziness, sneezing",Anemia
+"dizziness, weight loss, nausea, joint pain, weakness",COVID-19
+"night sweats, nausea, diarrhea, loss of appetite, confusion",Encephalitis
+"fever, vomiting, sneezing, sore throat, confusion",Hepatitis B
+"blurred vision, night sweats",Jaundice
+"weight loss, blurred vision, nausea, diarrhea",Leukemia
+"abdominal pain, joint pain, sore throat, dizziness",Migraine
+"sneezing, blurred vision, diarrhea, vomiting, weight loss",Rheumatoid Arthritis
+"shortness of breath, fever, abdominal pain",Diabetes
+"loss of appetite, diarrhea, chest pain",Hypertension
+"fever, sweating, sore throat",Asthma
+"weakness, sweating, sore throat",Lung Cancer
+"joint pain, rash, abdominal pain, loss of appetite, fatigue",Hypertension
+"weakness, fever, joint pain, vomiting",Peptic Ulcer
+"fever, fatigue, cough",Gastroenteritis
+"abdominal pain, loss of appetite, diarrhea, sweating",Measles
+"nausea, weakness",Hepatitis B
+"sore throat, joint pain, rash",Lung Cancer
+"sweating, abdominal pain, rash",Appendicitis
+"fatigue, cough, joint pain",Diabetes
+"joint pain, headache",Osteoarthritis
+"shortness of breath, muscle ache, weight loss, vomiting",Meningitis
+"night sweats, shortness of breath, cough, diarrhea, weight loss",Sinusitis
+"sneezing, fever, joint pain",Epilepsy
+"sore throat, weakness, muscle ache, diarrhea",Gastroenteritis
+"joint pain, confusion, fever, blurred vision, sweating",Appendicitis
+"fever, night sweats",Kidney Infection
+"abdominal pain, chest pain, blurred vision",UTI
+"weight loss, rash, confusion, headache, cough",Asthma
+"headache, cough, confusion",Chikungunya
+"sneezing, nausea, dizziness, vomiting",Hepatitis B
+"night sweats, diarrhea",Epilepsy
+"weakness, fever, weight loss, sore throat, joint pain",Skin Allergy
+"joint pain, shortness of breath, dizziness, loss of appetite, night sweats",Chikungunya
+"fatigue, night sweats, nausea, vomiting",Kidney Infection
+"sore throat, rash, loss of appetite",Heat Stroke
+"abdominal pain, nausea, rash",Psoriasis
+"sweating, weakness, abdominal pain, sneezing",Meningitis
+"fatigue, sweating, diarrhea",Hypertension
+"cough, confusion, muscle ache, rash",Tuberculosis
+"headache, loss of appetite",Pneumonia
+"headache, blurred vision, joint pain, night sweats, abdominal pain",Asthma
+"loss of appetite, joint pain, diarrhea, shortness of breath, blurred vision",Chickenpox
+"chest pain, sweating, abdominal pain, nausea",Kidney Infection
+"weakness, sore throat, fever, night sweats",Hepatitis B
+"sore throat, cough, weight loss, blurred vision",Mumps
+"fever, weakness, dizziness",Hypertension
+"joint pain, shortness of breath, sneezing, diarrhea",Hepatitis A
+"sweating, loss of appetite, weight loss, diarrhea",Lung Cancer
+"loss of appetite, diarrhea, sore throat, shortness of breath, nausea",Asthma
+"cough, abdominal pain, sore throat",Chikungunya
+"muscle ache, nausea, night sweats, shortness of breath, abdominal pain",Eczema
+"sweating, rash, vomiting, blurred vision, fever",Diabetes
+"nausea, weight loss, vomiting, muscle ache, joint pain",Gastroenteritis
+"abdominal pain, fatigue, blurred vision, weight loss",Lung Cancer
+"diarrhea, cough, dizziness, abdominal pain",Asthma
+"nausea, joint pain, loss of appetite, blurred vision",Chikungunya
+"cough, sweating, sneezing, muscle ache, shortness of breath",COVID-19
+"sneezing, muscle ache, weight loss, blurred vision, loss of appetite",Rheumatoid Arthritis
+"sneezing, diarrhea, weakness",Meningitis
+"night sweats, fever, headache, cough",Meningitis
+"sore throat, night sweats",Hepatitis C
+"loss of appetite, night sweats, headache, blurred vision",Rheumatoid Arthritis
+"muscle ache, vomiting, chest pain, cough",Gastroenteritis
+"abdominal pain, confusion",Chickenpox
+"headache, weakness, sore throat",Sinusitis
+"weight loss, rash, dizziness, shortness of breath, sweating",Leukemia
+"cough, loss of appetite, vomiting",Gastroenteritis
+"muscle ache, joint pain, night sweats",Hepatitis A
+"rash, sore throat",Gastroenteritis
+"vomiting, cough, loss of appetite, sneezing",Epilepsy
+"muscle ache, vomiting, weight loss, confusion",Psoriasis
+"sneezing, headache, nausea, chest pain, sore throat",Jaundice
+"joint pain, sore throat",Leukemia
+"rash, fever, fatigue, cough, nausea",Asthma
+"weakness, sore throat, shortness of breath",Chikungunya
+"joint pain, chest pain, blurred vision, abdominal pain",Epilepsy
+"rash, shortness of breath, night sweats, joint pain",Hepatitis C
+"sneezing, dizziness, sore throat, abdominal pain, weight loss",Psoriasis
+"sore throat, sweating, night sweats, diarrhea, fatigue",Sinusitis
+"sweating, cough, sneezing",Mumps
+"fever, sneezing, vomiting, weakness",COVID-19
+"confusion, fever, fatigue, chest pain, joint pain",Peptic Ulcer
+"chest pain, headache",Jaundice
+"fever, nausea",Allergic Rhinitis
+"fatigue, diarrhea, dizziness, fever, sore throat",Hepatitis C
+"dizziness, vomiting, blurred vision",Heat Stroke
+"sweating, cough",Diabetes
+"fatigue, vomiting",Tuberculosis
+"sore throat, vomiting, muscle ache",Anemia
+"diarrhea, abdominal pain, confusion",UTI
+"headache, confusion",Epilepsy
+"confusion, fatigue",Chickenpox
+"vomiting, sore throat",Hepatitis A
+"sweating, rash, sore throat, weakness, fatigue",Asthma
+"rash, vomiting, confusion, sneezing",Rheumatoid Arthritis
+"rash, sweating, chest pain, sore throat, shortness of breath",Asthma
+"rash, sweating, blurred vision",Sinusitis
+"headache, weakness, weight loss",Kidney Infection
+"muscle ache, weakness, fatigue, shortness of breath",Measles
+"cough, rash, chest pain, sweating",Mumps
+"cough, nausea, loss of appetite, vomiting, headache",Osteoarthritis
+"nausea, sore throat, headache, rash",Osteoarthritis
+"confusion, loss of appetite, abdominal pain, headache, vomiting",Leukemia
+"sneezing, headache",COVID-19
+"joint pain, weight loss",Migraine
+"dizziness, sweating, headache, loss of appetite",Diabetes
+"sweating, sore throat, confusion, nausea",Encephalitis
+"joint pain, dizziness, night sweats, sore throat",Epilepsy
+"muscle ache, fever, headache, diarrhea, weakness",Pneumonia
+"night sweats, cough, muscle ache",Eczema
+"sore throat, dizziness",UTI
+"loss of appetite, vomiting",Skin Allergy
+"cough, joint pain, muscle ache",Pneumonia
+"dizziness, abdominal pain, weight loss",Lung Cancer
+"fever, joint pain",Pneumonia
+"rash, weakness, shortness of breath, weight loss, abdominal pain",Meningitis
+"dizziness, confusion, sweating, muscle ache, vomiting",Gastroenteritis
+"diarrhea, blurred vision, fever, weakness",Bronchitis
+"fatigue, shortness of breath, diarrhea, cough, sneezing",Rheumatoid Arthritis
+"sneezing, shortness of breath, sweating, fatigue, headache",Pneumonia
+"blurred vision, sore throat, night sweats",Measles
+"headache, night sweats, joint pain, sneezing, nausea",Leukemia
+"night sweats, blurred vision, chest pain, weight loss, vomiting",Hepatitis A
+"cough, headache, blurred vision, dizziness, vomiting",Migraine
+"muscle ache, vomiting",Psoriasis
+"sweating, fever, loss of appetite",Hepatitis A
+"weight loss, night sweats, sweating",Asthma
+"chest pain, shortness of breath, night sweats, blurred vision, weight loss",Migraine
+"cough, sweating, loss of appetite, night sweats, fever",Encephalitis
+"weakness, sneezing",Asthma
+"weakness, abdominal pain",Hepatitis C
+"weight loss, abdominal pain, sore throat, fever, night sweats",Food Poisoning
+"weakness, blurred vision, fever, sneezing",Anemia
+"muscle ache, shortness of breath, vomiting, night sweats, diarrhea",Food Poisoning
+"fever, rash, weight loss",Asthma
+"chest pain, confusion, rash, joint pain",Encephalitis
+"confusion, blurred vision, joint pain",UTI
+"chest pain, sweating, nausea, shortness of breath",Jaundice
+"nausea, abdominal pain, dizziness",Hypertension
+"fatigue, headache, nausea, night sweats",Leukemia
+"diarrhea, sweating, sore throat, headache, dizziness",Sinusitis
+"fever, fatigue, sneezing",Osteoarthritis
+"fatigue, nausea",Peptic Ulcer
+"blurred vision, sore throat, chest pain",Measles
+"cough, sneezing, sweating, nausea",Epilepsy
+"fever, chest pain, loss of appetite, sneezing, vomiting",Hepatitis B
+"blurred vision, nausea, confusion, cough",Psoriasis
+"abdominal pain, muscle ache",Skin Allergy
+"dizziness, cough, sneezing, diarrhea, confusion",Hepatitis A
+"rash, nausea, weight loss",Food Poisoning
+"abdominal pain, joint pain, weakness",Lung Cancer
+"chest pain, nausea, blurred vision",Peptic Ulcer
+"fatigue, diarrhea, weight loss, blurred vision, dizziness",Tuberculosis
+"weight loss, confusion, dizziness, weakness",Pneumonia
+"muscle ache, rash, shortness of breath, night sweats, weakness",Tuberculosis
+"weakness, rash",Kidney Infection
+"sweating, sore throat, diarrhea",Lung Cancer
+"blurred vision, cough, sneezing",Kidney Infection
+"shortness of breath, vomiting",Jaundice
+"cough, fever",Epilepsy
+"nausea, weight loss, joint pain",Eczema
+"muscle ache, joint pain",Epilepsy
+"sneezing, muscle ache, weakness, fever, vomiting",Anemia
+"sneezing, loss of appetite, vomiting, dizziness, shortness of breath",Meningitis
+"confusion, dizziness, sweating, fever",Allergic Rhinitis
+"loss of appetite, blurred vision, weight loss",Measles
+"muscle ache, night sweats, dizziness, shortness of breath",UTI
+"weight loss, joint pain",Osteoarthritis
+"confusion, abdominal pain, blurred vision, rash, muscle ache",Anemia
+"vomiting, sneezing, weakness, muscle ache",Encephalitis
+"fever, diarrhea, abdominal pain, sore throat, weight loss",Pneumonia
+"abdominal pain, sore throat, rash",Psoriasis
+"muscle ache, confusion, rash, loss of appetite",Hepatitis A
+"sweating, dizziness, chest pain",Osteoarthritis
+"fatigue, weight loss, vomiting, blurred vision",Rheumatoid Arthritis
+"chest pain, nausea, confusion",UTI
+"muscle ache, blurred vision",Asthma
+"abdominal pain, headache",Chickenpox
+"muscle ache, night sweats",Hypertension
+"fever, headache, confusion, diarrhea, blurred vision",Psoriasis
+"sneezing, abdominal pain",Chickenpox
+"sore throat, chest pain",Jaundice
+"headache, night sweats, confusion",Mumps
+"fatigue, chest pain",Hypertension
+"rash, loss of appetite, blurred vision, chest pain, sweating",Hypertension
+"headache, shortness of breath, sore throat, night sweats, confusion",Tuberculosis
+"cough, sweating, vomiting, joint pain",Pneumonia
+"chest pain, rash, dizziness, fatigue, sweating",Migraine
+"fever, dizziness",COVID-19
+"blurred vision, confusion, sore throat, night sweats",Skin Allergy
+"fatigue, sweating, loss of appetite, vomiting, cough",Allergic Rhinitis
+"fever, sneezing, sore throat",Diabetes
+"loss of appetite, vomiting, fever, fatigue",Encephalitis
+"headache, blurred vision, dizziness, night sweats",Mumps
+"joint pain, nausea, weakness, sneezing, diarrhea",Mumps
+"nausea, sweating, headache, muscle ache",Tuberculosis
+"diarrhea, shortness of breath, weakness, confusion, blurred vision",Hypertension
+"night sweats, chest pain, headache",Hepatitis C
+"dizziness, cough, headache, shortness of breath",Skin Allergy
+"blurred vision, rash, night sweats",Anemia
+"blurred vision, shortness of breath",Pneumonia
+"confusion, weight loss",Chikungunya
+"vomiting, confusion, diarrhea",Leukemia
+"joint pain, weakness, chest pain, diarrhea",Gastroenteritis
+"diarrhea, nausea, sneezing, fever, loss of appetite",Rheumatoid Arthritis
+"loss of appetite, sneezing, confusion, shortness of breath",Rheumatoid Arthritis
+"confusion, sneezing, diarrhea, joint pain, sweating",Hypertension
+"sweating, fever",Psoriasis
+"weakness, sweating, night sweats, cough",COVID-19
+"rash, diarrhea, fatigue, headache",Diabetes
+"night sweats, chest pain, sweating, sneezing, headache",Hepatitis B
+"weakness, confusion, sweating, headache, sneezing",COVID-19
+"cough, weakness, joint pain",Meningitis
+"joint pain, night sweats",Skin Allergy
+"fatigue, weakness",Appendicitis
+"confusion, loss of appetite, vomiting, sore throat, fatigue",Hepatitis B
+"abdominal pain, diarrhea, cough, vomiting",Measles
+"diarrhea, fatigue, chest pain, sneezing",Mumps
+"rash, abdominal pain, weight loss, blurred vision",Skin Allergy
+"headache, joint pain, abdominal pain, fatigue, vomiting",Sinusitis
+"rash, cough, vomiting",Jaundice
+"cough, headache, sore throat, diarrhea, fever",Allergic Rhinitis
+"weakness, weight loss, blurred vision",Mumps
+"chest pain, diarrhea, sweating, joint pain",Diabetes
+"diarrhea, muscle ache, weakness, confusion, rash",Meningitis
+"diarrhea, weakness, rash, dizziness",Jaundice
+"blurred vision, muscle ache, cough, night sweats",Mumps
+"sore throat, cough, vomiting, weakness, chest pain",Food Poisoning
+"fever, loss of appetite, joint pain",Jaundice
+"shortness of breath, weakness, night sweats, confusion",Eczema
+"sore throat, headache, confusion, blurred vision, sneezing",Gastroenteritis
+"nausea, fever, cough, vomiting, joint pain",Kidney Infection
+"vomiting, joint pain, cough, dizziness, headache",Sinusitis
+"fatigue, muscle ache, confusion, rash",Psoriasis
+"nausea, shortness of breath, sneezing, loss of appetite, fatigue",Osteoarthritis
+"chest pain, rash, weakness",Sinusitis
+"shortness of breath, chest pain, cough, night sweats, sneezing",Anemia
+"chest pain, fatigue, weakness, sneezing, joint pain",Bronchitis
+"sore throat, abdominal pain, nausea, muscle ache",Anemia
+"rash, loss of appetite, sweating, sore throat, night sweats",Bronchitis
+"night sweats, shortness of breath",UTI
+"joint pain, fever, sore throat",Peptic Ulcer
+"loss of appetite, diarrhea, sweating, shortness of breath",Appendicitis
+"night sweats, abdominal pain",Lung Cancer
+"shortness of breath, loss of appetite, rash, joint pain",COVID-19
+"muscle ache, fatigue, diarrhea, sneezing, cough",Pneumonia
+"cough, shortness of breath, blurred vision",Allergic Rhinitis
+"rash, muscle ache, sweating, weight loss, chest pain",Allergic Rhinitis
+"fatigue, sore throat, night sweats",Rheumatoid Arthritis
+"rash, fever, headache, weakness, weight loss",Jaundice
+"fatigue, sweating",Skin Allergy
+"fatigue, dizziness, weight loss",Epilepsy
+"sneezing, vomiting, loss of appetite, night sweats, fatigue",Sinusitis
+"cough, weakness, chest pain",Chickenpox
+"chest pain, diarrhea, night sweats",Asthma
+"loss of appetite, confusion, blurred vision, diarrhea, vomiting",Pneumonia
+"headache, dizziness",Leukemia
+"weight loss, sore throat, cough, confusion",Jaundice
+"headache, diarrhea, confusion, fever",Heat Stroke
+"muscle ache, joint pain, rash, blurred vision",Chikungunya
+"loss of appetite, nausea, chest pain",Skin Allergy
+"weight loss, sore throat, loss of appetite, blurred vision",Rheumatoid Arthritis
+"loss of appetite, sweating, weakness",Pneumonia
+"weight loss, diarrhea",Eczema
+"sneezing, diarrhea, vomiting, weakness, sweating",Pneumonia
+"fever, joint pain, blurred vision, weight loss",Meningitis
+"fever, chest pain, weight loss, abdominal pain",Leukemia
+"dizziness, confusion, sweating, night sweats",Hepatitis C
+"fever, chest pain, dizziness, nausea",UTI
+"muscle ache, joint pain, headache",Anemia
+"confusion, diarrhea, fatigue, weight loss, headache",Meningitis
+"loss of appetite, confusion, joint pain",Hepatitis B
+"confusion, fever, sneezing",Hepatitis C
+"vomiting, weight loss, fatigue",Leukemia
+"weakness, headache",Heat Stroke
+"sweating, chest pain, fever, headache",Gastroenteritis
+"weight loss, chest pain, muscle ache, cough, weakness",COVID-19
+"fatigue, fever, sneezing, muscle ache, loss of appetite",Bronchitis
+"joint pain, headache, weakness",Chikungunya
+"blurred vision, headache, abdominal pain, fever, sneezing",Chikungunya
+"fever, cough, rash",COVID-19
+"dizziness, fever, sweating",Bronchitis
+"confusion, sweating, night sweats, vomiting",UTI
+"shortness of breath, sneezing",COVID-19
+"vomiting, weight loss, confusion, joint pain, weakness",Epilepsy
+"fatigue, dizziness, blurred vision, confusion",Leukemia
+"blurred vision, confusion, diarrhea, rash, night sweats",Hypertension
+"fever, muscle ache, nausea, dizziness",COVID-19
+"sweating, dizziness",Hepatitis A
+"loss of appetite, rash, weight loss, nausea, confusion",Sinusitis
+"vomiting, headache, nausea, abdominal pain, night sweats",Hepatitis B
+"night sweats, sore throat, fever, blurred vision, nausea",Diabetes
+"fatigue, confusion, diarrhea",Migraine
+"cough, blurred vision",Osteoarthritis
+"fatigue, abdominal pain, sneezing",Jaundice
+"sneezing, headache, nausea",Osteoarthritis
+"headache, sore throat, dizziness, rash, fever",Asthma
+"weakness, loss of appetite, diarrhea",Asthma
+"blurred vision, diarrhea",Leukemia
+"blurred vision, fever, weakness",Rheumatoid Arthritis
+"loss of appetite, abdominal pain",Measles
+"fever, rash, cough, nausea",Appendicitis
+"sneezing, cough, weakness, nausea, blurred vision",Diabetes
+"blurred vision, chest pain",Leukemia
+"weight loss, headache, fever",COVID-19
+"night sweats, confusion, cough, blurred vision, fever",Heat Stroke
+"diarrhea, rash, nausea, weight loss, weakness",Heat Stroke
+"fatigue, nausea, sweating, weight loss, abdominal pain",Heat Stroke
+"abdominal pain, nausea, weight loss, fever, diarrhea",Chikungunya
+"loss of appetite, night sweats, confusion, joint pain, rash",Appendicitis
+"shortness of breath, blurred vision, weakness, sweating",Hepatitis B
+"joint pain, dizziness, sore throat, diarrhea",Diabetes
+"weight loss, loss of appetite, shortness of breath, night sweats",Anemia
+"night sweats, loss of appetite, nausea, sweating",Food Poisoning
+"headache, sneezing, blurred vision, rash, vomiting",Hepatitis C
+"joint pain, muscle ache, headache, fatigue, abdominal pain",Eczema
+"cough, joint pain, rash",Osteoarthritis
+"blurred vision, sore throat, fever",COVID-19
+"sneezing, headache, rash, chest pain, dizziness",Hepatitis A
+"abdominal pain, diarrhea, night sweats, headache",Eczema
+"rash, weight loss, chest pain, night sweats",Meningitis
+"loss of appetite, rash",Tuberculosis
+"fever, sore throat, weakness",Hepatitis B
+"sweating, cough, chest pain, diarrhea",Hepatitis B
+"shortness of breath, headache, cough, night sweats, rash",Allergic Rhinitis
+"fever, weakness, sore throat",Rheumatoid Arthritis

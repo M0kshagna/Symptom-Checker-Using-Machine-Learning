@@ -1,0 +1,95 @@
+from flask import Flask, render_template, request, jsonify
+import pandas as pd
+import os
+import re
+from difflib import get_close_matches
+
+app = Flask(__name__)
+
+# ---------------- Load datasets ----------------
+DATA_DIR = "data"  # Folder containing your CSV files
+
+def safe_read_csv(file):
+    try:
+        return pd.read_csv(os.path.join(DATA_DIR, file), encoding="utf-8", engine="python")
+    except Exception as e:
+        print(f"⚠ Error reading {file}: {e}")
+        return pd.DataFrame()
+
+# Load all datasets
+symptom_disease   = safe_read_csv("symptom_disease.csv")
+disease_desc      = safe_read_csv("disease_description.csv")
+disease_prec      = safe_read_csv("disease_precaution.csv")
+disease_diet      = safe_read_csv("disease_diet.csv")
+disease_medicine  = safe_read_csv("disease_medicine.csv")
+
+# ---------------- Preprocess symptom data ----------------
+symptom_disease.columns = symptom_disease.columns.str.strip()
+symptom_disease["Symptom"] = symptom_disease["Symptom"].apply(
+    lambda x: [s.strip().lower() for s in str(x).split(",")]
+)
+
+# Collect all unique known symptoms for typo correction
+all_known_symptoms = set()
+for s_list in symptom_disease["Symptom"]:
+    all_known_symptoms.update(s_list)
+
+def clean_text(s):
+    """Remove extra spaces, punctuation, lowercase."""
+    s = re.sub(r"[^a-zA-Z\s]", " ", s)
+    s = re.sub(r"\s+", " ", s)
+    return s.strip().lower()
+
+def correct_symptom(symptom):
+    """Fix typos by matching to closest known symptom."""
+    symptom = clean_text(symptom)
+    matches = get_close_matches(symptom, all_known_symptoms, n=1, cutoff=0.75)
+    return matches[0] if matches else symptom
+
+@app.route("/")
+def index():
+    return render_template("chat.html")
+
+@app.route("/get_response", methods=["POST"])
+def get_response():
+    user_msg = request.json.get("message", "").strip().lower()
+    if not user_msg:
+        return jsonify({"reply": "⚠ Please enter at least one symptom."})
+
+    # Clean + correct each symptom
+    raw_user_symptoms = [s.strip() for s in re.split(r",|;|\band\b", user_msg) if s.strip()]
+    user_symptom = [correct_symptom(s) for s in raw_user_symptoms]
+
+    # ---------------- Partial symptom matching ----------------
+    max_matches = 0
+    predicted_disease = None
+    for idx, row in symptom_disease.iterrows():
+        disease_symptoms = row["Symptom"]
+        matches = len(set(user_symptom) & set(disease_symptoms))  # count of matching symptoms
+        if matches > max_matches:
+            max_matches = matches
+            predicted_disease = row["Disease"]
+
+    # Require at least 2 matching symptoms
+    if max_matches < 2:
+        return jsonify({"reply": "❌ Not enough matching symptoms to predict a disease."})
+
+    disease = predicted_disease
+
+    # ---------------- Fetch disease details ----------------
+    description = disease_desc.loc[disease_desc["Disease"] == disease, "Description"].values
+    precautions = disease_prec.loc[disease_prec["Disease"] == disease].iloc[:, 1:].values.flatten()
+    diet        = disease_diet.loc[disease_diet["Disease"] == disease].iloc[:, 1:].values.flatten()
+    medicines   = disease_medicine.loc[disease_medicine["Disease"] == disease].iloc[:, 1:].values.flatten()
+
+    # ---------------- Build reply ----------------
+    reply = f"🩺 <b>Disease:</b> {disease}<br>"
+    reply += f"📖 <b>Description:</b> {description[0] if len(description) else 'Not available'}<br>"
+    reply += f"💊 <b>Medicines:</b> {', '.join([m for m in medicines if pd.notna(m)]) if len(medicines) else 'Not available'}<br>"
+    reply += f"🥗 <b>Diet:</b> {', '.join([d for d in diet if pd.notna(d)]) if len(diet) else 'Not available'}<br>"
+    reply += f"🛡 <b>Precautions:</b> {', '.join([p for p in precautions if pd.notna(p)]) if len(precautions) else 'Not available'}"
+
+    return jsonify({"reply": reply})
+
+if __name__ == "__main__":
+    app.run(debug=True)

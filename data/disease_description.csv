@@ -1,0 +1,80 @@
+Disease,Description
+Malaria,A mosquito-borne parasitic infection caused by Plasmodium species.
+Typhoid,"A bacterial infection caused by Salmonella Typhi, usually from contaminated food or water."
+Dengue,"A mosquito-transmitted viral infection causing high fever, rash, and joint pain."
+Influenza (Flu),"A contagious respiratory viral infection causing fever, cough, and body aches."
+Common Cold,"A mild viral upper respiratory infection causing sneezing, runny nose, and sore throat."
+COVID-19,A contagious respiratory illness caused by the SARS-CoV-2 virus.
+Pneumonia,"An infection of the lungs caused by bacteria, viruses, or fungi leading to cough and difficulty breathing."
+Measles,"Measles — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Chickenpox,"Chickenpox — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Allergic Rhinitis,Inflammation of the Allergic Rhin (typically infectious or inflammatory in origin).
+Tonsillitis,Inflammation of the Tonsill (typically infectious or inflammatory in origin).
+Tuberculosis,A bacterial infection (Mycobacterium tuberculosis) that primarily affects the lungs.
+Cholera,"Cholera — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Herpes (HSV),"Herpes (HSV) — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Zika Virus,A viral infection; clinical features and severity vary by virus.
+Yellow Fever,A condition characterized by elevated body temperature (fever); causes vary.
+Rubella,"Rubella — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Gastroenteritis,Inflammation of the Gastroenter (typically infectious or inflammatory in origin).
+Leptospirosis,"Leptospirosis — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Meningitis,Inflammation of the Mening (typically infectious or inflammatory in origin).
+Mononucleosis,"Mononucleosis — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Bronchiectasis,A respiratory condition causing airway narrowing and breathing difficulty.
+"Hemorrhagic Fever (e.g., Ebola)",A condition characterized by elevated body temperature (fever); causes vary.
+Hepatitis A,Inflammation of the Hepatitis A (typically infectious or inflammatory in origin).
+Hepatitis B,A viral infection that affects the liver and can cause acute or chronic disease.
+Diabetes Mellitus,A metabolic disorder characterized by high blood sugar levels due to insulin problems.
+Hypertension,"Hypertension — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Angina,"Angina — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Cardiac Arrhythmia,"Cardiac Arrhythmia — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Rheumatoid Arthritis,Inflammation of the Rheumatoid Arthr (typically infectious or inflammatory in origin).
+Osteoporosis,"Osteoporosis — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Anemia,"Anemia — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Chronic Obstructive Pulmonary Disease (COPD),A respiratory condition causing airway narrowing and breathing difficulty.
+Spondylitis,Inflammation of the Spondyl (typically infectious or inflammatory in origin).
+Hypothyroidism,"Hypothyroidism — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Hyperthyroidism,"Hyperthyroidism — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Chronic Kidney Disease,"Chronic Kidney Disease — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Myocardial Infarction (Heart Attack),"Myocardial Infarction (Heart Attack) — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Alzheimer's Disease,"Alzheimer's Disease — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Parkinson's Disease,"Parkinson's Disease — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Stroke,A cerebrovascular event causing sudden loss of blood flow to part of the brain.
+Jaundice,"Jaundice — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Food Poisoning,"Food Poisoning — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Gastroesophageal Reflux Disease (GERD),"Gastroesophageal Reflux Disease (GERD) — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Irritable Bowel Syndrome (IBS),"Irritable Bowel Syndrome (IBS) — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Inflammatory Bowel Disease (Ulcerative Colitis/Crohn's),Inflammation of the Inflammatory Bowel Disease (Ulcerative Colitis/Crohn's) (typically infectious or inflammatory in origin).
+Gallstones / Cholelithiasis,"Gallstones / Cholelithiasis — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Esophagitis,Inflammation of the Esophag (typically infectious or inflammatory in origin).
+Migraine,"Migraine — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Epilepsy,"Epilepsy — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Anxiety Disorder,"Anxiety Disorder — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Depression,"Depression — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Urinary Tract Infection (UTI),"Urinary Tract Infection (UTI) — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Polycystic Ovary Syndrome (PCOS),"Polycystic Ovary Syndrome (PCOS) — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+"Sexually Transmitted Infection (e.g., Chlamydia/Gonorrhea)","Sexually Transmitted Infection (e.g., Chlamydia/Gonorrhea) — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Psoriasis,"Psoriasis — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Urticaria (Hives),"Urticaria (Hives) — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Oral Thrush (Candidiasis),"Oral Thrush (Candidiasis) — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Leukemia,A malignant (cancerous) condition; characterized by uncontrolled cell growth.
+Lymphoma,A malignant (cancerous) condition; characterized by uncontrolled cell growth.
+Severe Viral Hemorrhagic Fever,A viral infection; clinical features and severity vary by virus.
+Multiple Myeloma / Bone Cancer,A malignant (cancerous) condition; characterized by uncontrolled cell growth.
+Heat Stroke,A cerebrovascular event causing sudden loss of blood flow to part of the brain.
+Bronchitis,Inflammation of the Bronch (typically infectious or inflammatory in origin).
+Chikungunya,"Chikungunya — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Osteoarthritis,Inflammation of the Osteoarthr (typically infectious or inflammatory in origin).
+Skin Allergy,An allergic condition caused by immune system hypersensitivity to specific triggers.
+Peptic Ulcer,"Peptic Ulcer — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Encephalitis,Inflammation of the Encephal (typically infectious or inflammatory in origin).
+UTI,"UTI — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Hepatitis C,A bloodborne viral infection that can cause chronic liver disease.
+Appendicitis,Inflammation of the Appendic (typically infectious or inflammatory in origin).
+Eczema,"Eczema — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Diabetes,A metabolic disorder characterized by high blood sugar levels due to insulin problems.
+Sinusitis,Inflammation of the Sinus (typically infectious or inflammatory in origin).
+Kidney Infection,"Kidney Infection — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Mumps,"Mumps — a medical condition; causes, symptoms, and severity vary and require clinical reference."
+Lung Cancer,A malignant (cancerous) condition; characterized by uncontrolled cell growth.
+Asthma,A respiratory condition causing airway narrowing and breathing difficulty.
